@@ -64,3 +64,8 @@ src/
 ```
 
 ## 3. 결과 페이지
+
+
+https://github.com/bidanee/pre_onboarding_subject_1/assets/110444526/af500a55-36b9-4fed-b9e7-2800a74e3a32
+
+
