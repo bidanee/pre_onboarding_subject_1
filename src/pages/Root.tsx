@@ -1,11 +1,11 @@
+import RouteButton from "../common/Button";
 import useRouter from "../hooks/useRouter";
 
 const Root = () => {
-  const { push } = useRouter();
   return (
-    <div className="w-11/12 flex justify-center items-center">
-      <div className="text-red-600">Root</div>
-      <button onClick={() => push("/about")}>Go to About</button>
+    <div className="fixed inset-0 flex flex-col justify-center items-center">
+      <div className="text-gray-800 text-xl">Root</div>
+      <RouteButton path="/about" children="About" />
     </div>
   );
 };

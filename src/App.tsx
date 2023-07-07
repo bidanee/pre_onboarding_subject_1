@@ -3,7 +3,7 @@ import Root from "./pages/Root";
 import { Route } from "./router/Route";
 import { Router } from "./router/Router";
 
-export default function App() {
+function App() {
   return (
     <Router>
       <Route path="/" component={<Root />} />
@@ -11,3 +11,4 @@ export default function App() {
     </Router>
   );
 }
+export default App;
